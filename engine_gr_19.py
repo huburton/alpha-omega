@@ -639,6 +639,11 @@ def play_game(group_1, type_1, group_2, type_2):
     if type_2 == 'remote':
         close_connection(connection_2)
 
-print(term.clear)
-dictionnary = config('vertical.ano')
-play_game(1, 'remote', 2, 'AI')
+if __name__ == '__main__':
+    import sys
+    map_file = sys.argv[1] if len(sys.argv) > 1 else 'maps/classic.ano'
+    type_1 = sys.argv[2] if len(sys.argv) > 2 else 'AI'
+    type_2 = sys.argv[3] if len(sys.argv) > 3 else 'AI'
+    print(term.clear)
+    dictionnary = config(map_file)
+    play_game(1, type_1, 2, type_2)
