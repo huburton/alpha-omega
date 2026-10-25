@@ -8,7 +8,7 @@ has an **alpha**, an **omega** and normal werewolves, and the first player whose
 
 *AI against AI on `maps/classic.ano`, one frame per round. Red and green are the two packs: `α` alpha,
 `Ω` omega, `⦿` werewolf, `X` a wolf with no energy left; the number under each piece is its energy.
-The two bars at the bottom are each pack's total energy.*
+The two bars at the bottom are the health of each alpha.*
 
 It was a group project for four students; I wrote most of the code
 (1,584 of the 1,590 lines added to the engine and the AI in the original history).
