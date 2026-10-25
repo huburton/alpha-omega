@@ -4,6 +4,12 @@ A turn-based werewolf strategy game for two players, played in the terminal, wri
 first year of computer science at the University of Namur (2022). Two packs fight on a grid: each pack
 has an **alpha**, an **omega** and normal werewolves, and the first player whose alpha dies loses.
 
+![An AI vs AI game on maps/classic.ano, one frame per round, until an alpha dies](docs/alpha-omega.gif)
+
+*AI against AI on `maps/classic.ano`, one frame per round. Red and green are the two packs: `α` alpha,
+`Ω` omega, `⦿` werewolf, `X` a wolf with no energy left; the number under each piece is its energy.
+The two bars at the bottom are each pack's total energy.*
+
 It was a group project for four students; I wrote most of the code
 (1,584 of the 1,590 lines added to the engine and the AI in the original history).
 
