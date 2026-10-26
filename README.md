@@ -1,5 +1,7 @@
 # Alpha & Omega
 
+*[Version française](README.fr.md)*
+
 A turn-based werewolf strategy game for two players, played in the terminal, written in Python during my
 first year of computer science at the University of Namur (2022). Two packs fight on a grid: each pack
 has an **alpha**, an **omega** and normal werewolves, and the first player whose alpha dies loses.
